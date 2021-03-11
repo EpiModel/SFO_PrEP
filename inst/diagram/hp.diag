@@ -1,0 +1,9 @@
+blockdiag {
+   // High PrEP
+   S [shape = "ellipse"];
+   Tx [linecolor = "blue", shape = "ellipse"];
+   I [linecolor = "red"];
+   S -> I  [label = "50", color = "red"];
+   I -> Tx [thick, label = "150", color = "blue"];
+   Tx -> I [label = "50", color = "red"];
+}

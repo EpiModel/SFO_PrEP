@@ -1,0 +1,9 @@
+blockdiag {
+   // Low base
+   S [shape = "ellipse"];
+   Tx [linecolor = "blue", shape = "ellipse"];
+   I [linecolor = "red"];
+   S -> I  [thick, label = "100", color = "red"];
+   I -> Tx [thick, label = "200", color = "blue"];
+   Tx -> I [thick, label = "100", color = "red"];
+}
