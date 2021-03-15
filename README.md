@@ -4,7 +4,7 @@ This repository holds the source to code to reproduce the analysis featured in o
 
 ## Citation
 
-> Adrien Le Guillou, Susan Buchbinder, Hyman Scott, Albert Liu, Diane Havlir, Susan Scheer, Samuel M. Jenness. Population Impact and Efficiency of Improvements to HIV PrEP Under Conditions of High ART Coverage among San Francisco Men Who Have Sex with Men. _MedArxiv_. [[Pre-Print]](https://doi.org/10.1093/infdis/jiab051)
+> Adrien Le Guillou, Susan Buchbinder, Hyman Scott, Albert Liu, Diane Havlir, Susan Scheer, Samuel M. Jenness. Population Impact and Efficiency of Improvements to HIV PrEP Under Conditions of High ART Coverage Among San Francisco Men Who Have Sex with Men. _MedArxiv_. [[Pre-Print]](https://www.medrxiv.org/content/10.1101/2021.03.11.21253406v1)
 
 ![Figure 1](inst/Fig1.jpeg)
 
