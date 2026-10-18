@@ -1,6 +1,6 @@
 # Population Impact and Efficiency of Improvements to HIV PrEP Under Conditions of High ART Coverage among San Francisco Men Who Have Sex with Men
 
-This repository holds the source to code to reproduce the analysis featured in our HIV/STI transmission model evaluating the impact of COVID-related impacts on the  dynamics of HIV, gonorrhea, and chlamydia.
+This repository holds the source code to reproduce the analysis featured in our HIV transmission model evaluating improvements to PrEP and ART among men who have sex with men in San Francisco.
 
 ## Paper and engine
 
