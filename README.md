@@ -2,9 +2,17 @@
 
 This repository holds the source to code to reproduce the analysis featured in our HIV/STI transmission model evaluating the impact of COVID-related impacts on the  dynamics of HIV, gonorrhea, and chlamydia.
 
-## Citation
+## Paper and engine
 
-> Adrien Le Guillou, Susan Buchbinder, Hyman Scott, Albert Liu, Diane Havlir, Susan Scheer, Samuel M. Jenness. Population Impact and Efficiency of Improvements to HIV PrEP Under Conditions of High ART Coverage Among San Francisco Men Who Have Sex with Men. _MedArxiv_. [[Pre-Print]](https://www.medrxiv.org/content/10.1101/2021.03.11.21253406v1)
+> Le Guillou A, Buchbinder S, Scott H, Liu A, Havlir D, Scheer S, Jenness SM. Population Impact and Efficiency of Improvements to HIV PrEP Under Conditions of High ART Coverage Among San Francisco Men Who Have Sex With Men. _J Acquir Immune Defic Syndr._ 2021; 88(4): 340-347. [doi:10.1097/QAI.0000000000002781](https://doi.org/10.1097/QAI.0000000000002781)
+
+The EpiModelHIV engine for this paper is release [`SFPrEP-JAIDS`](https://github.com/EpiModel/EpiModelHIV/releases/tag/SFPrEP-JAIDS) of EpiModel/EpiModelHIV. Install it with:
+
+```r
+remotes::install_github("EpiModel/EpiModelHIV@SFPrEP-JAIDS")
+```
+
+ARTnetData is a private package. It is needed only to re-estimate the networks.
 
 ![Figure 1](inst/Fig1.jpeg)
 
@@ -43,7 +51,7 @@ Once `renv` has finished initializing, restart R.
 
 ### ARTnet Data Access
 
-To use this model, you will need a GitHub Private Access Token to install packages from private GitHub repositories (EpiModelHIV-p, ARTNetData). It should be set either in "~/.bashrc":
+To restore the full package set from `renv.lock`, you will need a GitHub personal access token with access to the private ARTnetData repository. It should be set either in "~/.bashrc":
 
 ```
 export GITHUB_PAT="<your github private access token>"
