@@ -83,12 +83,11 @@
       "Version": "1.5.0",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteUsername": "epimodel",
-      "RemoteRepo": "epimodelhiv-p",
-      "RemoteRef": "SFO_PrEP",
-      "RemoteSha": "16dcf5772f6749e34281b0831947a6e6da70e8e7",
-      "RemoteHost": "api.github.com",
-      "Hash": "f474795bf980fbbb9194d52946faccb8"
+      "RemoteUsername": "EpiModel",
+      "RemoteRepo": "EpiModelHIV",
+      "RemoteRef": "SFPrEP-JAIDS",
+      "RemoteSha": "74634d284d0676ab71f2b7a95cd8af8e9d75bdbd",
+      "RemoteHost": "api.github.com"
     },
     "EpiModelHPC": {
       "Package": "EpiModelHPC",
