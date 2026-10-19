@@ -12,7 +12,7 @@ The EpiModelHIV engine for this paper is release [`SFPrEP-JAIDS`](https://github
 remotes::install_github("EpiModel/EpiModelHIV@SFPrEP-JAIDS")
 ```
 
-ARTnetData is a private package. It is needed only to re-estimate the networks.
+ARTnetData is a private package. It is needed only to re-estimate the networks. The paper's networks were estimated with ARTnet 2.5.0, which is no longer public, so `renv.lock` installs ARTnet 2.9.3, the first version in the public [ARTnet](https://github.com/EpiModel/ARTnet) repository. Networks re-estimated with it may not match the paper's exactly.
 
 ![Figure 1](inst/Fig1.jpeg)
 
